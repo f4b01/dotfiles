@@ -321,7 +321,8 @@ export VISUAL="nvim"
 #autojump
 [[ -s /home/env/.autojump/etc/profile.d/autojump.sh ]] && source /home/env/.autojump/etc/profile.d/autojump.sh
 
-
+# Avvia Agente ssh
+eval $(ssh-agent)
 #Cheatsheet comandi
 
 RED='\033[0;31m'

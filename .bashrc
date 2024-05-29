@@ -332,7 +332,8 @@ printf "
 *                                                                                         *  
 *  usa il comando ${RED}j${NC} per navigare nel sistema in modo veloce,                              *
 *  usa il comando ${RED}nvs${NC} per cercare un file ed entrarci dentro con neovim,                  *
-*  usa il comando ${RED}disback${NC} per fare il backup del container distrobox env.                 *
+*  usa il comando ${RED}disback${NC} per fare il backup del container distrobox env,                 *
+*  usa il comando ${RED}config${NC} come comando di git specifico per aggiornare i dotfiles.         *
 *                                                                                         *
 *******************************************************************************************\n"
 

@@ -20,17 +20,29 @@ return {
 
 	{
 		"neovim/nvim-lspconfig",
-		config = function()
+		lazy = false,
+        config = function()
+			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 			local lspconfig = require("lspconfig")
-			lspconfig.pyright.setup({})
-			lspconfig.lua_ls.setup({})
-			lspconfig.html.setup({})
-			lspconfig.cssls.setup({})
+			lspconfig.pyright.setup({
+				 capabilities == capabilities,
+			})
+			lspconfig.lua_ls.setup({
+				 capabilities == capabilities,
+			})
+			lspconfig.html.setup({
+				 capabilities == capabilities,
+			})
+
+			lspconfig.cssls.setup({
+				 capabilities == capabilities,
+			})
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
 			vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
 			vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
+			vim.keymap.set("n", "<leader>ma", ":Mason<CR>", {})
 		end,
 	},
 }

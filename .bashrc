@@ -318,11 +318,15 @@ unset bash_prompt
 export EDITOR="nvim"
 export VISUAL="nvim" 
 
+# Imposta la directory dei file di configurazione
+export XDG_CONFIG_HOME="/home/$USER/.config/"
+
+
 #autojump
 [[ -s /home/env/.autojump/etc/profile.d/autojump.sh ]] && source /home/env/.autojump/etc/profile.d/autojump.sh
 
 # Avvia Agente ssh
-eval $(ssh-agent)
+eval $(ssh-agent) > /dev/null
 #Cheatsheet comandi
 
 RED='\033[0;31m'

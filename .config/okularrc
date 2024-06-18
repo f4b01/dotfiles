@@ -1,0 +1,13 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Documenti/Graphs/Informatica/assets/How_to_Store_Dotfiles_-_A_Bare_Git_Repository_Atlassian_Git_Tutorial_1716996394149_0
+Name1[$e]=How_to_Store_Dotfiles_-_A_Bare_Git_Repository_Atlassian_Git_Tutorial_1716996394149_0

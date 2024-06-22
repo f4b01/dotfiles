@@ -1,12 +1,10 @@
 [Desktops]
 Id_1=170ed651-2f42-4dc2-b91a-e2c1214421e4
-Id_2=681a415e-42aa-4f28-ac65-e3aa01208be4
-Id_3=111950bd-553b-4471-adf8-0c2f08ecc32b
-Id_4=7465e4a0-8fef-452d-abe6-3eeafd2df1eb
-Name_2=Desktop 3
-Name_3=Desktop 4
-Name_4=Desktop 5
-Number=4
+Id_2=111950bd-553b-4471-adf8-0c2f08ecc32b
+Id_3=7465e4a0-8fef-452d-abe6-3eeafd2df1eb
+Id_4=e6538cbb-e080-4ffa-ae06-bafdd39e15e8
+Id_5=11d36fc1-2421-4e05-99e6-a8bc1811c970
+Number=5
 Rows=1
 
 [NightColor]
@@ -18,6 +16,9 @@ NightTemperature=2900
 padding=4
 
 [Tiling][8e6b1fc5-d0cd-595e-9e6e-f99a3c5190c1]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][8ef1e055-727b-5408-b920-1dcf314931aa]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]

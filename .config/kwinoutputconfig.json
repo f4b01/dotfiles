@@ -3,6 +3,8 @@
         "data": [
             {
                 "autoRotation": "InTabletMode",
+                "brightness": 1,
+                "colorProfileSource": "sRGB",
                 "connectorName": "LVDS-1",
                 "edidHash": "b22c96618384c6ee61bc5a283a0d5344",
                 "edidIdentifier": "LGD 931 0 0 2012 0",
@@ -24,6 +26,7 @@
             },
             {
                 "autoRotation": "InTabletMode",
+                "colorProfileSource": "sRGB",
                 "connectorName": "Virtual-Virtual1",
                 "highDynamicRange": false,
                 "iccProfilePath": "",

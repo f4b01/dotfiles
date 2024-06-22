@@ -21,7 +21,7 @@ _k_friendly_name=Touchpad
 _k_friendly_name=Volume audio
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Riduci volume del microfono
 decrease_volume=Volume Down,Volume Down,Riduci volume
-decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Diminuisci il volume del 1%
+decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Riduci il volume del 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Aumenta volume del microfono
 increase_volume=Volume Up,Volume Up,Aumenta volume
 increase_volume_small=Shift+Volume Up,Shift+Volume Up,Aumenta il volume del 1%
@@ -31,8 +31,9 @@ mute=Volume Mute,Volume Mute,Silenzia
 [ksmserver]
 Halt Without Confirmation=none,,Spegnimento senza conferma
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Blocca sessione
-Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Disconnetti
+Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Mostra richiesta di chiusura della sessione
 Log Out Without Confirmation=none,,Uscita senza conferma
+LogOut=,,Disconnetti
 Reboot=none,,Riavvia
 Reboot Without Confirmation=none,,Riavvio senza conferma
 Shut Down=none,,Spegni
@@ -105,7 +106,7 @@ Switch to Screen Above=none,,Passa allo schermo in alto
 Switch to Screen Below=none,,Passa allo schermo in basso
 Switch to Screen to the Left=none,,Passa allo schermo a sinistra
 Switch to Screen to the Right=none,,Passa allo schermo a destra
-Toggle Night Color=none,none,Commuta luce notturna
+Toggle Night Color=none,none,Sospendi/Ripristina Luce notturna
 Toggle Window Raise/Lower=none,,Alza/abbassa finestra
 Walk Through Windows=Alt+Tab,Alt+Tab,Percorri le finestre
 Walk Through Windows (Reverse)=Alt+Shift+Tab,Alt+Shift+Tab,Percorri le finestre (all'indietro)
@@ -222,6 +223,7 @@ powerProfile=Battery,Battery\tMeta+B,Cambia il profilo energetico
 
 [plasmashell]
 _k_friendly_name=plasmashell
+activate application launcher=\t,Meta\tAlt+F1,Attiva esecutore delle applicazioni
 activate task manager entry 1=none,Meta+1,Attiva voce 1 del gestore dei processi
 activate task manager entry 10=none,Meta+0,Attiva voce 10 del gestore dei processi
 activate task manager entry 2=none,Meta+2,Attiva voce 2 del gestore dei processi
@@ -253,11 +255,14 @@ switch to next activity=none,,Passa all'attività successiva
 switch to previous activity=none,,Passa all'attività precedente
 toggle do not disturb=none,,Attiva Non disturbare
 
+[services][Alacritty.desktop]
+New=Meta+T
+
 [services][librewolf.desktop]
 new-window=Meta+B
 
 [services][org.kde.konsole.desktop]
-_launch=Meta+T
+_launch=none
 
 [services][org.kde.krunner.desktop]
 _launch=Alt+Space\tMeta\tSearch

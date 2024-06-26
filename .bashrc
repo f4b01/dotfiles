@@ -53,7 +53,7 @@ alias ch='printf "
 PS1="\[\e[31m\][\[\e[m\]\[\e[34m\]\h\[\e[m\]\[\e[34m\]@\[\e[m\]\[\e[34m\]\u\[\e[m\]\[\e[31m\]]\[\e[m\]\[\e[31m\]-\[\e[m\]\[\e[31m\][\[\e[m\]\[\e[32m\]\w\[\e[m\]\[\e[31m\]]\[\e[m\]\\$ "
 
 #I miei alias
-alias n='nvim'
+alias v='nvim'
 alias nvs='nvim $(fzf --algo=v2 --border)'
 alias hst='history | fzf'
 # alias hst='history | grep'  # nel caso in cui non si avesse fzf installato

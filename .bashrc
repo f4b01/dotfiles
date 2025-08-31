@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-bind -x '"\C-r": history | fzf --algo=v2 --border'
+eval "$(fzf --bash)"
 bind '"\e[A":history-search-backward'
 bind '"\e[B":history-search-forward'
     

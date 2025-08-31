@@ -64,3 +64,6 @@ alias ..='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 alias ..4='cd ../../../..'
+
+# Created by `pipx` on 2025-06-27 17:02:49
+export PATH="$PATH:/home/fabiano/.local/bin"
